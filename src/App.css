@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+}
+
+.title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.ruleCardsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ruleCard{
+    
+    width: 24%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    & p{
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    & img{
+        width: 64px;
+    }
+}
+
+.filled{ 
+    background-color: black;
+}
+
+/* .turnCard{
+    margin-top: 5vh;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    border: 1px solid black;
+
+    & .terrainContainer, .shapeContainer{
+        border: 2px solid black;
+        padding: 50px
+    }
+} */
+
+.turnCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    & .cardTitle{
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    & .turnContainer{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7vw;
+        height: 40vh;
+
+        & .terrainContainer, .shapeContainer{
+
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & p{
+                font-size: 1.3em;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.newTurn{
+    border: 1px solid darkgreen;
+    width: 100%;
+    height: 7vh;
+    font-size: 1.3em;
+    color: darkgreen;
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.optionsContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    & .hard{
+        width: fit-content;
+        font-size: 1.3em;
+    }
+    & .newGame{
+        border: 1px solid darkred;
+        flex: 1;
+        height: 7vh;
+        font-size: 1.3em;
+        color: darkred;
+        background-color: lightcoral;
+        border-radius: 5px;
+    }
+}

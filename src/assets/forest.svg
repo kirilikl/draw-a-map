@@ -1,0 +1,8 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.5" y="2.5" width="123" height="123" rx="12.5" stroke="black" stroke-width="5"/>
+<circle cx="64" cy="47" r="17.5" stroke="black" stroke-width="5"/>
+<mask id="path-3-inside-1_3_24" fill="white">
+<path d="M54 62H74V100H54V62Z"/>
+</mask>
+<path d="M74 100V105H79V100H74ZM54 100H49V105H54V100ZM74 62H69V100H74H79V62H74ZM74 100V95H54V100V105H74V100ZM54 100H59V62H54H49V100H54Z" fill="black" mask="url(#path-3-inside-1_3_24)"/>
+</svg>
